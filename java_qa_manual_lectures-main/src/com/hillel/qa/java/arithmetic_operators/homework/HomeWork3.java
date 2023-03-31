@@ -24,7 +24,6 @@ public class HomeWork3 {
 
         String digits = "";
         digits = a + b + "" + c;
-
         System.out.println(digits);
     }
 }

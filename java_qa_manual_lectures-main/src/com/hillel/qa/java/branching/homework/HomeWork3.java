@@ -23,5 +23,23 @@ public class HomeWork3 {
      */
     public static void main(String[] args) {
 
+        double purchaseAmount = 300;
+        String paymentMethod = "картка";
+
+        switch (paymentMethod) {
+            case  "готівка" :
+                System.out.println(purchaseAmount);
+                break;
+            case "картка" :
+                System.out.println(purchaseAmount*1.02);
+                break;
+            case "рахунок":
+                System.out.println(purchaseAmount*1.05);
+                break;
+            default:
+            System.out.println("Спосіб оплати не знайдено");
+
+        }
+
     }
 }
