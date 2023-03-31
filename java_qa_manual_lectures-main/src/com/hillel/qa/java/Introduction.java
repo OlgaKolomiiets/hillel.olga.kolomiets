@@ -66,6 +66,14 @@ public class Introduction {
         } else if (bodyTemperature > normalTemperature){
             System.out.println("Ви маєте високу температуру, зверніться до лікарні!");*/
 
+        int n = 0;
+        while (n > 50);
+        {
+            System.out.println("QA це круто!");
+        }
+
+        
+
         // TODO: Створіть свій клас та виведіть там "QA це круто!"
     }
 }
