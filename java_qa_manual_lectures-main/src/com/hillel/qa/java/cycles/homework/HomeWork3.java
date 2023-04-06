@@ -9,17 +9,13 @@ public class HomeWork3 {
      */
     public static void main(String[] args) {
        int sum = 0;
-       int digit = 0;
-       int count = 0;
 
-       while (count < 100) {
-           count++;
-           digit++;
+       for (int i = 1; i <= 100; i++) {
 
-           if (digit % 3 == 0) {
+           if (i % 3 == 0) {
                continue;
            }
-           sum += digit;
+           sum += i;
        }
        System.out.println(sum);
 
