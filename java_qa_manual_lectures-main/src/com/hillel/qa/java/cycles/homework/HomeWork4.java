@@ -1,5 +1,7 @@
 package com.hillel.qa.java.cycles.homework;
 
+import java.util.Scanner;
+
 public class HomeWork4 {
     /**
      * <p style="font-size:12px">
@@ -32,6 +34,21 @@ public class HomeWork4 {
      * </p>
      */
     public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Введіть символ");
+        char symbol = input.next().charAt(0);
+
+        System.out.println("Введіть висоту:");
+        int height = input.nextInt();
+
+        for (int h = 1; h <= height; h++) {
+            for (int s = 1; s <= h; s++) {
+                System.out.print(symbol);
+            }
+            System.out.println();
+        }
 
     }
 }
